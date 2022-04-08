@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>YouTube Clone</title>
+</head>
+
+<body>
+  <header class="nav">
+    <section class="nav-place">
+      <span class="nav__left">
+        <i class="fas fa-bars"></i>
+        <div class="logo">
+          <img src="youtube-logo.png" alt="YouTube Logo" class="nav__logo" />
+        </div>
+      </span>
+
+      <span class="nav__search nav__middle">
+        <input type="search" placeholder="Search" class="nav__search--bar" />
+        <ul class="nav__li">
+          <li class="nav__search--button">
+            <a class="nav__search--link"><i class="fas fa-search"></i></a>
+          </li>
+          <li class="nav__mic">
+            <a class="nav__mic--link"><i class="fas fa-microphone"></i></a>
+          </li>
+        </ul>
+      </span>
+
+      <span class="nav__options--button nav__right">
+        <!-- video logo -->
+        <i class="fas fa-video nav__right--item"></i>
+        <!-- 6x6 grid logo -->
+        <i class="fas fa-th nav__right--item"></i>
+        <!-- notification logo -->
+        <i class="fas fa-bell nav__right--item"></i>
+        <!-- profile pic -->
+      </span>
+    </section>
+  </header>
+
+  <section class="video"></section>
+
+  <section class="lower-section">
+    <div class="que">
+      <div class="que__header">
+        <p class="que__header--header">CSS Grid Videos</p>
+        <p class="que__header--nums">Kevin Powell - 1/23</p>
+        <div class="que__header--shuffle"><i class="fas fa-random"></i></div>
+      </div>
+      <div class="recommended-videos__scroll--menu">
+        <!-- video -->
+
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">1</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-0.png" alt="../Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">2</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-1.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">3</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-2.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">4</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-7.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">5</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-4.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">6</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-5.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">7</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-6.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">8</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-6.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">7</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-6.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+        <!-- video -->
+        <div class="recommended-videos">
+          <div class="recommended-videos__inline-block">
+            <span class="video-num">9</span>
+            <span class="recommended-videos__img"><img src="../Youtube Clone/recommended-videos-img/recommended-img-6.png" alt="/Users/efesezen/Desktop/Coding/2020 Pandemic Works/Youtube Clone/que-photo.png" /></span>
+            <div class="recommended--videos__header">
+              <h3 class="recommended--videos__header--header">
+                CSS Specifity explained
+              </h3>
+              <p class="recommended-videos__description">Kevin Powell</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- info section header of video + view number + subscribe button etc. -->
+    <section class="info">
+      <section class="recommended-videos">
+        <header class="video__header">
+          <h2 class="video__header--title">
+            Make CSS Grid soooo much easier to understand and use
+          </h2>
+          <div class="video__header--sub">
+            <div class="vvideo__header--left video__header--views">
+              26,001 views•Jan 31, 2020
+            </div>
+            <div class="video__header--right">
+              <div class="video__header--like video__header--item">
+                <i class="fas fa-thumbs-up"></i>
+                <span>1.1K</span>
+              </div>
+              <div class="video__header--dislike video__header--item">
+                <i class="fas fa-thumbs-down"></i>
+                <span>4</span>
+              </div>
+              <div class="video__header--share video__header--item">
+                <i class="fas fa-share"></i>
+                <span>SHARE</span>
+              </div>
+              <div class="video__header--more video__header--item">
+                <i class="fas fa-ellipsis-h"></i>
+              </div>
+            </div>
+          </div>
+        </header>
+      </section>
+
+      <section class="profile">
+        <div class="profile__upper-section">
+          <div class="profile__info">
+            <div class="profile__photo"></div>
+            <div class="profile__channel--name-info">
+              <div class="profile__channel--name">Kevin Powell</div>
+              <div class="profile__channel--subscribers">
+                275K subscribers
+              </div>
+            </div>
+          </div>
+          <div class="subscribe-button">
+            <button class="profile__info--button">SUBSCRIBE</button>
+          </div>
+        </div>
+        <div class="profile__lower-section">
+          <div class="profile__channel--description">
+            If you aren't already using Firefox for your dev browser, I
+            strongly recommend it. Chrome's devtools are great, but Firefox's
+            grid and flex inspector, among a few other of it's features, make
+            it my go to.
+            <div class="profile__channel--show">SHOW MORE</div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- video -->
+    <section class="video-random">
+      <div class="random-videos">
+        <div class="random-video">
+          <img src="../Youtube Clone/random-recommended-videos/random-video-00.png" class="random-video__img" />
+        </div>
+        <div class="random-video__description">
+          <div class="random-video__description--header">
+            Floats, Flexbox, Grid? The progression of CSS layouts
+          </div>
+          <div class="random-video__description-channel-name random-video__description-channel-item">
+            Kevin Powell
+          </div>
+          <div class="random-video__description-channel-views random-video__description-channel-item">
+            26K views• Streamed 1 week ago
+          </div>
+        </div>
+      </div>
+
+      <!-- video -->
+
+      <div class="random-videos">
+        <div class="random-video">
+          <img src="../Youtube Clone/random-recommended-videos/random-video-01.png" class="random-video__img" />
+        </div>
+        <div class="random-video__description">
+          <div class="random-video__description--header">
+            Floats, Flexbox, Grid? The progression of CSS layouts
+          </div>
+          <div class="random-video__description-channel-name random-video__description-channel-item">
+            Kevin Powell
+          </div>
+          <div class="random-video__description-channel-views random-video__description-channel-item">
+            26K views• Streamed 1 week ago
+          </div>
+        </div>
+      </div>
+
+      <!-- video -->
+
+      <div class="random-videos">
+        <div class="random-video">
+          <img src="../Youtube Clone/random-recommended-videos/random-video-02.png" class="random-video__img" />
+        </div>
+        <div class="random-video__description">
+          <div class="random-video__description--header">
+            Floats, Flexbox, Grid? The progression of CSS layouts
+          </div>
+          <div class="random-video__description-channel-name random-video__description-channel-item">
+            Kevin Powell
+          </div>
+          <div class="random-video__description-channel-views random-video__description-channel-item">
+            26K views• Streamed 1 week ago
+          </div>
+        </div>
+      </div>
+
+      <!-- video -->
+
+      <div class="random-videos">
+        <div class="random-video">
+          <img src="../Youtube Clone/random-recommended-videos/random-video-03.png" class="random-video__img" />
+        </div>
+        <div class="random-video__description">
+          <div class="random-video__description--header">
+            Floats, Flexbox, Grid? The progression of CSS layouts
+          </div>
+          <div class="random-video__description-channel-name random-video__description-channel-item">
+            Kevin Powell
+          </div>
+          <div class="random-video__description-channel-views random-video__description-channel-item">
+            26K views• Streamed 1 week ago
+          </div>
+        </div>
+      </div>
+
+      <!-- video -->
+
+      <div class="random-videos">
+        <div class="random-video">
+          <img src="../Youtube Clone/random-recommended-videos/random-video-04.png" class="random-video__img" />
+        </div>
+        <div class="random-video__description">
+          <div class="random-video__description--header">
+            Floats, Flexbox, Grid? The progression of CSS layouts
+          </div>
+          <div class="random-video__description-channel-name random-video__description-channel-item">
+            Kevin Powell
+          </div>
+          <div class="random-video__description-channel-views random-video__description-channel-item">
+            26K views• Streamed 1 week ago
+          </div>
+        </div>
+      </div>
+
+      <!-- video -->
+
+      <div class="random-videos">
+        <div class="random-video">
+          <img src="../Youtube Clone/random-recommended-videos/random-video-05.png" class="random-video__img" />
+        </div>
+        <div class="random-video__description">
+          <div class="random-video__description--header">
+            Floats, Flexbox, Grid? The progression of CSS layouts
+          </div>
+          <div class="random-video__description-channel-name random-video__description-channel-item">
+            Kevin Powell
+          </div>
+          <div class="random-video__description-channel-views random-video__description-channel-item">
+            26K views• Streamed 1 week ago
+          </div>
+        </div>
+      </div>
+
+      <!-- video -->
+
+      <div class="random-videos">
+        <div class="random-video">
+          <img src="../Youtube Clone/random-recommended-videos/random-video-06.png" class="random-video__img" />
+        </div>
+        <div class="random-video__description">
+          <div class="random-video__description--header">
+            Floats, Flexbox, Grid? The progression of CSS layouts
+          </div>
+          <div class="random-video__description-channel-name random-video__description-channel-item">
+            Kevin Powell
+          </div>
+          <div class="random-video__description-channel-views random-video__description-channel-item">
+            26K views• Streamed 1 week ago
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="comment__text">
+        <div>
+          <div class="profile__photo"></div>
+        </div>
+        <input type="text" class="write__comment" placeholder="Add a public comment" />
+      </div>
+      <div class="comments__other">
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: yellowgreen"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Carlos Garcia
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Just so you know, my school uses this video as intructions. very
+              simple to understand.
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: goldenrod"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Rasmus Landby
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Kevin you are totally awesome. Thanks for all the content you
+              are uploading!! Cheers..
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: palevioletred"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Tushar Mahli
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Thanks a lot. Very good class. Keep going.
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: tomato"></div>
+          </div>
+
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Andrea <span class="comment__date">3 months ago</span></span>
+            <div class="comment__comment">
+              You are by far the best teacher I've come across. I finished
+              another html and css course for beginners elsewhere so I
+              somewhat understand the principles but I just had to come back
+              to you because I knew you'd explain everything so much better
+              and I'd fully understand and remember the concepts this way.
+              Also your style of teaching is so cheerful it puts me at ease in
+              times where I want to throw my laptop out the window in
+              frustration haha. Thank you so much for the work you do.
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: yellowgreen"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Carlos Garcia
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Just so you know, my school uses this video as intructions. very
+              simple to understand.
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: goldenrod"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Rasmus Landby
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Kevin you are totally awesome. Thanks for all the content you
+              are uploading!!
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: palevioletred"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Tushar Mahli
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Thanks a lot. Very good class. Keep going.
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: tomato"></div>
+          </div>
+
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Andrea <span class="comment__date">3 months ago</span></span>
+            <div class="comment__comment">
+              So where do you work, name some of the websites which are in use
+              now ?
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: yellowgreen"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Carlos Garcia
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Just so you know, my school uses this video as intructions. very
+              simple to understand.
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: goldenrod"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Rasmus Landby
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Kevin you are totally awesome. Thanks for all the content you
+              are uploading!! Cheers..
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: palevioletred"></div>
+          </div>
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Tushar Mahli
+              <span class="comment__date">1 week ago</span></span>
+            <div class="comment__comment">
+              Thanks a lot. Very good class. Keep going.
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- comment -->
+        <div class="comment__block">
+          <div>
+            <div class="profile__photo" style="background-color: tomato"></div>
+          </div>
+
+          <div class="comments__text-section">
+            <span class="comment__profile-name">Andrea <span class="comment__date">3 months ago</span></span>
+            <div class="comment__comment">
+              You are by far the best teacher I've come across. I finished
+              another html and css course for beginners elsewhere so I
+              somewhat understand the principles but I just had to come back
+              to you because I knew you'd explain everything so much better
+              and I'd fully understand and remember the concepts this way.
+              Also your style of teaching is so cheerful it puts me at ease in
+              times where I want to throw my laptop out the window in
+              frustration haha. Thank you so much for the work you do.
+            </div>
+            <div class="like-dislike">
+              <span class="lower-section-item"><i class="fas fa-thumbs-up"></i> 108</span>
+              <span class="lower-section-item"><i class="fas fa-thumbs-down"></i> 23</span>
+              <span class="lower-section-item">REPLY</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</body>
+
+</html>
