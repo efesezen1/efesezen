@@ -1,5 +1,5 @@
 # youtube-clone-page
-This is a youtube clone page that was done for the practice of CSS.
+A youtube clone page that was done for CSS practice
 
 ## for pc version:
 ![Main page](example/bigPicture-1.png)
